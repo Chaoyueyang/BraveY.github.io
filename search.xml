@@ -1421,7 +1421,7 @@ P(x_k|C_i)=g(x_k,\mu_{C_i},\sigma_{C_i})</script></li>
 <h3 id="评价"><a href="#评价" class="headerlink" title="评价"></a>评价</h3><p>朴素贝叶斯的优势：比较容易实现，在大多数情况可以取得好结果。缺点是：因为做了属性互相独立的假设，因此会降低准确率。而且实际上，大部分属性之间并不互相独立。</p>
 <p>可以使用贝叶斯信念网络来处理。</p>
 <h2 id="BP神经网络"><a href="#BP神经网络" class="headerlink" title="BP神经网络"></a>BP神经网络</h2><h3 id="多层前馈神经网络"><a href="#多层前馈神经网络" class="headerlink" title="多层前馈神经网络"></a>多层前馈神经网络</h3><p>后向传播算法Back propagation在多层前馈神经网络上学习。由输入层、一个或多个隐藏层和一个输出层组成。</p>
-<p><a href="C:\Users\BraveY\Documents\BraveY\blog\images\data mining\multi_layer_feed_forward_network.jpg" data-fancybox="group" data-caption="" class="fancybox"><img src="C:\Users\BraveY\Documents\BraveY\blog\images\data mining\multi_layer_feed_forward_network.jpg" alt="" title=""></a></p>
+<p><a href="/2019-11-17-分类与预测.htm/Users\BraveY\Documents\BraveY\blog\images\data mining\multi_layer_feed_forward_network.jpg" data-fancybox="group" data-caption="" class="fancybox"><img src="/2019-11-17-分类与预测.htm/Users\BraveY\Documents\BraveY\blog\images\data mining\multi_layer_feed_forward_network.jpg" alt="" title=""></a></p>
 <p>输入层的单元称作输入单元，隐藏层和输出层单元称作输出单元或者神经节点。输入向量输入进输入单元，然后加权同时地提供给隐藏层的输出单元。在全连接的情况下每一层单元与前后层单元都会有相应的权重，因为权重不会回馈到输入节点，所以称为前馈的。因此一次输入就完成输出。</p>
 <h3 id="网络拓扑的定义"><a href="#网络拓扑的定义" class="headerlink" title="网络拓扑的定义"></a>网络拓扑的定义</h3><p>应该设计多少层隐藏层，每一层有多少单元，输入层单元应该有多少，是否全连接等都是网络拓扑需要考虑的。</p>
 <p>需要先对输入值进行归一化，将值落入[0,1]之间。离散值的属性可以进行重新编码，让每一个域值都有一个输入单元。如果属性A有3个可能的值${a_0, a_1, a_2}$那么就需要设计3个输入单元$I_0, I_1,I_2$，输入单元$I_1$为1对应属性$A=a_1$。</p>
@@ -1788,7 +1788,7 @@ e_{11}=\dfrac{count(男)\times count(小说)}{n}=\dfrac{300\times450}{1500}=90</
 <h2 id="数据导入"><a href="#数据导入" class="headerlink" title="数据导入"></a>数据导入</h2><p>在下方节点栏中的Sources中选择Var.file节点，拖到中间的画布。然后双击设置输入数据的文件导入，如下所示：<br><a href="https://res.cloudinary.com/bravey/image/upload/v1573097265/blog/varfile1.jpg" data-fancybox="group" data-caption="" class="fancybox"><img src="https://res.cloudinary.com/bravey/image/upload/v1573097265/blog/varfile1.jpg" alt="" title=""></a></p>
 <p>在导入数据后选择分隔符我的数据是用tab分割的)，之后点击Apply完成设置。</p>
 <h2 id="数据显示"><a href="#数据显示" class="headerlink" title="数据显示"></a>数据显示</h2><p>在导入了数据后可以使用输出节点来输出数据，选择Outputs中的Table节点来输出数据。如下所示：</p>
-<p><a href="C:\Users\BraveY\AppData\Local\Temp\1573097747688.png" data-fancybox="group" data-caption="" class="fancybox"><img src="C:\Users\BraveY\AppData\Local\Temp\1573097747688.png" alt="" title=""></a></p>
+<p><a href="/2019-11-07-Clementine教程.htm/Users\BraveY\AppData\Local\Temp\1573097747688.png" data-fancybox="group" data-caption="" class="fancybox"><img src="/2019-11-07-Clementine教程.htm/Users\BraveY\AppData\Local\Temp\1573097747688.png" alt="" title=""></a></p>
 <p>对输入节点训练集.txt邮件有个connect可以进行连接。或者使用快捷键F2来连接。连接好后右键execute就可以得到上图显示了。</p>
 <h2 id="模型训练"><a href="#模型训练" class="headerlink" title="模型训练"></a>模型训练</h2><p>以使用决策树模型为例子，给定的输入数据集是一个在线测试系统中学生做的各项测试的数据，final是期末考试是否及格。也就是通过学生在测试系统的数据，来预测学生期末考试是否会及格。在选择模型前，需要在Fidel Ops中选择一个type节点来设置输入数据中各个属性。如下所示：</p>
 <p><a href="https://res.cloudinary.com/bravey/image/upload/v1573098328/blog/type.jpg" data-fancybox="group" data-caption="" class="fancybox"><img src="https://res.cloudinary.com/bravey/image/upload/v1573098328/blog/type.jpg" alt="" title=""></a></p>
@@ -4133,7 +4133,7 @@ f(n-1)+f(n-2)& \text {n>2}
 </ol>
 <p>至此安装理论上已经成功。但仍然遇到了其他问题</p>
 <h2 id="Perminsion-denied问题"><a href="#Perminsion-denied问题" class="headerlink" title="Perminsion denied问题"></a>Perminsion denied问题</h2><p>最开始的安装包是从windows下面考过去的结果生成cc的数据后无法运行执行脚本</p>
-<p><a href="BigdataBench-deploy\runcc.png" data-fancybox="group" data-caption="" class="fancybox"><img src="BigdataBench-deploy\runcc.png" alt="" title=""></a></p>
+<p><a href="/BigdataBench-deploy.htm/runcc.png" data-fancybox="group" data-caption="" class="fancybox"><img src="/BigdataBench-deploy.htm/runcc.png" alt="" title=""></a></p>
 <p>原因是此时的run_connectedComponents已经不是可执行文件了（不是绿色的）需要<code>chmod a+x run_connectedComponents</code>来将文件的权限修改为可执行文件权限（修改后变为绿色）</p>
 <p>后面wget下载后解压配置之后直接就是可执行文件！</p>
 <h2 id="ldd-程序-动态链接库缺失"><a href="#ldd-程序-动态链接库缺失" class="headerlink" title="ldd 程序 动态链接库缺失"></a>ldd 程序 动态链接库缺失</h2><p><code>[root@hw073 ConnectedComponent]# ldd run_connectedComponents</code><br><code>linux-vdso.so.1 =&gt;  (0x00007ffdfc8d4000)</code><br><code>librt.so.1 =&gt; /lib64/librt.so.1 (0x0000003156e00000)</code><br><code>libpthread.so.0 =&gt; /lib64/libpthread.so.0 (0x0000003156a00000)</code></p>
@@ -4170,7 +4170,7 @@ f(n-1)+f(n-2)& \text {n>2}
 </li>
 <li><p>PageRank公式修正</p>
 <p>存在出链为0的孤立网页，增加阻力系数q ，一般取q=0.85，其意义是用户有1-q的概率不点击此页面上面的所有链接。同时还有随机直接跳转的概率，如直接输入网址，点击书签等。完整公式如下：</p>
-<p><a href="E:\data\ict\docs\page rank.png" data-fancybox="group" data-caption="" class="fancybox"><img src="E:\data\ict\docs\page rank.png" alt="" title=""></a></p>
+<p><a href="/图计算常用算法.htm/data\ict\docs\page rank.png" data-fancybox="group" data-caption="" class="fancybox"><img src="/图计算常用算法.htm/data\ict\docs\page rank.png" alt="" title=""></a></p>
 </li>
 </ol>
 </li>
